@@ -1,3 +1,5 @@
+import "@/styles/global.css"
+
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 
