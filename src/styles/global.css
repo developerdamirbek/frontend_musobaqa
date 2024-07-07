@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --brand: #359740;
+    --brand-secondary: rgba(53, 151, 64, 0.08);
+    --primary: #4FA083;
+
+    --text: #1F2533;
+    --text-secondary: #70737C;
+
+    --hover: #2BB159;
+
+
+}
+
+/* Global style */
+html,
+body {
+  color: var(--text);
+  font-size: 16px;
+  height: 100%;
+  line-height: 16px;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: var(--hover);
+  }
+}
